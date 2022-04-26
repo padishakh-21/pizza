@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    background-color: #edf3f8;
+    background-image: url(../img/pitsa.jpg);
+    background-repeat: no-repeat;
+    background-size: 411px;
+    background-position: calc(50% + 542px) calc(0% - -138px);
+}
+
+.form__select {
+    max-width: 300px;
+}
+
+.form__select-box,
+.form__radios-box,
+.form__checks-box {
+    border-radius: 20px;
+}
+
+.pizza__right {
+    height: 550px;
+    border-left: 2px solid rgb(63, 71, 80);
+}
+
+.result__bread,
+.result__size {
+    border-radius: 10px;
+}
+
+.result__top {
+    min-height: 190px;
+    border-radius: 10px;
+}
+
+.result__extra {
+    min-height: 100px;
+    border-radius: 10px;
+}
+
+.radio-group {
+    display: inline;
+}
+
+.form__radio {
+    display: none;
+}
+
+.form__radio-label {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 100px;
+    font-weight: 600;
+    margin-right: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.list-item {
+    width: 50%;
+}
+
+.form__radio:checked~.form__radio-label {
+    color: #fff;
+    background-color: #000;
+}
+
+.form-check-input:checked {
+    background-color: gold;
+}
